@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin:28px 48px;
+    margin:28px 48px 0;
 }
 
 @media screen and (max-width:1279px) {
@@ -15,13 +15,15 @@
 
 @media screen and (max-width:1023px) {
     .header {
-        min-width: 720px;  
+        min-width: calc(100% - (48px*2));
+        margin:24px 28px 0;  
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:767px) and (min-width:320px) {
     .header {
         min-width: 288px; 
-        min-height: 42px; 
+        min-height: 42px;
+        margin:16px 16px 0;
     }
 }
