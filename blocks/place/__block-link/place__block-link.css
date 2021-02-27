@@ -1,0 +1,10 @@
+.place__block-link {
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #fff;
+}
+
+.place__block-link:hover {
+    color: #aaa;
+}
