@@ -1,5 +1,6 @@
 .intro__list-item {
     font-size: 12px;
     line-height: 18px;
-    text-align: left;  
+    text-align: left;
+        /*Покажите, пожалуйста, где на макете видны отступы между элементами списка*/
 }

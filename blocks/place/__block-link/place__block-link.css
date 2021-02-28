@@ -6,5 +6,5 @@
 }
 
 .place__block-link:hover {
-    color: #aaa;
+    opacity: 0.8;
 }

@@ -1,5 +1,4 @@
 .photo-grid {
-    min-height: 671px;
     min-width: calc(100% - (48px*2));
     display: grid;
     justify-content: center;
